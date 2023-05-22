@@ -1,8 +1,9 @@
 import NATIONAL_PARKS_DATA from "./data.json";
 import { Map } from "react-map-gl";
 import DeckGL, { GeoJsonLayer } from "deck.gl";
+import "mapbox-gl/dist/mapbox-gl.css";
 const MAPBOX_ACCESS_TOKEN =
-  "pk.eyJ1IjoicmVkc2lsdmVyNTIyIiwiYSI6ImNsaHlkcDc4MzB4MGgzZHJwZjdqamFwODYifQ.m22renmKPUA4rupVepEgAg";
+  "pk.MzB4MGgzZHJwZjdqamFwODYifQ.m22renmKPUA4rupVepEgAg";
 
 const INITIAL_VIEW_STATE = {
   latitude: 39.8283,
