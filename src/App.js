@@ -3,7 +3,7 @@ import { Map } from "react-map-gl";
 import DeckGL, { GeoJsonLayer } from "deck.gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 const MAPBOX_ACCESS_TOKEN =
-  "pk.MzB4MGgzZHJwZjdqamFwODYifQ.m22renmKPUA4rupVepEgAg";
+  "pk.eyJ1IjoicmVkc2lsdmVyNTIyIiwiYSI6ImNsaHl4enpjNzE4N3Eza3Bjemk3MTc1cDYifQ.EL1F3mAAhdlX1du8lCLDGw";
 
 const INITIAL_VIEW_STATE = {
   latitude: 39.8283,
